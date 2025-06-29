@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Robô para WhatsApp - Cadastro de Interesses</title>
+    <meta name="description" content="Automatize seu atendimento no WhatsApp e receba novos contatos diretamente.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f5f7fa; color: #333; }
+        .container { max-width: 800px; margin: auto; padding: 2rem; text-align: center; }
+        h1 { color: #0b6e4f; font-size: 2.2rem; margin-bottom: 1rem; }
+        p.sub { font-size: 1.1rem; margin-bottom: 2rem; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 2rem; }
+        .button, input[type="submit"] {
+            background: #0b6e4f; color: white; padding: 1rem 2rem; border: none;
+            border-radius: 6px; font-size: 1rem; cursor: pointer; text-decoration: none;
+        }
+        input[type="text"], input[type="email"] {
+            padding: 0.8rem; width: 80%; max-width: 400px;
+            margin-bottom: 1rem; border-radius: 5px; border: 1px solid #ccc;
+        }
+        footer { font-size: 0.8rem; color: #777; margin-top: 2rem; }
+        form { display: flex; flex-direction: column; align-items: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Robô para WhatsApp</h1>
+        <p class="sub">Receba mais clientes com automações no seu WhatsApp Business.</p>
+
+        <div class="card">
+            <h2>✔️ Respostas instantâneas</h2>
+            <h2>✔️ Envio automático de catálogos</h2>
+            <h2>✔️ Agendamentos e captação de leads</h2>
+        </div>
+
+        <div class="card">
+            <h2>📩 Cadastre seu e-mail e veja como funciona:</h2>
+            <form action="https://formspree.io/f/xwkdknqa" method="POST">
+                <input type="text" name="name" placeholder="Seu nome" required />
+                <input type="email" name="email" placeholder="Seu e-mail" required />
+                <input type="submit" value="Quero ver a demonstração" />
+            </form>
+        </div>
+
+        <a class="button" href="https://wa.me/55SEUNUMERO" target="_blank">Falar com atendimento</a>
+
+        <footer>
+            © 2025 WA Auto Europe — contato@wa-auto-europe.com
+        </footer>
+    </div>
+</body>
+</html>
